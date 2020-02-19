@@ -1,0 +1,11 @@
+sipp:
+
+
+cbs
+3*3
+run：python cbs.py input.yaml output.yaml
+visual：python ../visualize.py input.yaml output.yaml
+
+32*32
+python cbs.py map_32by32_obst204_agents10_ex10.yaml output.yaml
+python ../visualize.py map_32by32_obst204_agents10_ex10.yaml output.yaml
